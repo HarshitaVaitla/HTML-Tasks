@@ -1,0 +1,23 @@
+.container {
+    width: 1300px;
+    margin: 10px 80px;
+
+}
+
+.top {
+    background-color: rgb(62, 88, 121);
+    color: whitesmoke;
+    margin-top: -17.5px;
+    padding: 2px 0 2px 20px;
+}
+
+.body {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(216, 196, 182);
+    color: rgb(33, 53, 85);
+    padding: 3px 15px 3px 10px;
+}
+ul,ol,p,marquee{
+    font-family: sans-serif;
+}

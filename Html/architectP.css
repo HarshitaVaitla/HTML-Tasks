@@ -1,0 +1,148 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    background-color: whitesmoke;
+    top: 0px;
+}
+
+.left {
+    padding-left: 10px;
+}
+
+.right {
+    padding-right: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav span {
+    font-weight: bold;
+    margin: 0px 3px;
+}
+
+.left>button {
+    font-family: inherit;
+    background: none;
+    border: none;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.left>button:hover {
+    background-color: rgb(165, 165, 165);
+    border: none;
+    width: 250px;
+    height: 40px;
+}
+
+.right>button {
+    letter-spacing: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    background: none;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+
+.right>button:hover {
+    background-color: rgb(165, 165, 165);
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+
+.banner {
+    margin-bottom: 30px;
+}
+
+.banner img {
+    width: 100%;
+    position: relative;
+}
+
+.banner span {
+    background-color: black;
+    opacity: 0.60;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+
+.banner h1 {
+    position: absolute;
+    letter-spacing: 4px;
+    font-size: 36px;
+    font-weight: 100;
+    color: white;
+    top: 50%;
+    left: 41%;
+}
+
+.project {
+    margin: 20px 30px;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.project h3 {
+    font-size: 24px;
+    padding: 10px 0px;
+    margin: 16px 20px;
+    font-weight: 100;
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+    width: 340px;
+    height: 220px;
+    margin: 0px 8px 20px 8px;
+    position: relative;
+    display: inline-block;
+}
+
+.child1 img,
+.child2 img,
+.child3 img,
+.child4 img {
+    width: 100%;
+    height: 100%;
+}
+
+.child1 h4,
+.child2 h4,
+.child3 h4,
+.child4 h4 {
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 120;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+}

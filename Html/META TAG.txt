@@ -1,0 +1,25 @@
+META TAG
+
+The <meta> tag in HTML is used to define metadata i.e information about the webpage inside the <head> section.
+
+The components of the <meta> tag are :
+
+1. NAME – Specifies the type of metadata, like description, keywords, author, or viewport.
+   Example:
+   	<meta name="author" content="Harshita Vaitla">
+
+2. CONTENT – Contains the actual metadata value for the name or http-equiv attribute.
+   Example:
+   	<meta name="description" content="Learn HTML easily">
+
+3. HTTP-EQUIV – Works like an HTTP header; can be used for refresh, content type, or cache control.
+   Example:
+   	<meta http-equiv="refresh" content="30">
+
+4. CHARSET – Defines the character encoding for the webpage.
+   Example:
+   	<meta charset="UTF-8">
+
+5. SCHEME (deprecated) – Used to define a scheme for interpreting the content value, rarely used now.
+   Example:
+	<meta name="example" content="value" scheme="URI">
